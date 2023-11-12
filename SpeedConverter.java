@@ -1,6 +1,6 @@
 public class SpeedConverter {
     public static void main(String[] args) {
-        printConversion(95.57);
+        speedConversion(115);
     }
 
     public static long toMilesPerHour(double kilometersPerHour) {
@@ -12,7 +12,7 @@ public class SpeedConverter {
         }
     }
 
-    public static void printConversion(double kilometersPerHour) {
+    public static void speedConversion(double kilometersPerHour) {
         if (kilometersPerHour < 0) {
             System.out.println("Invalid input");
         } else {
